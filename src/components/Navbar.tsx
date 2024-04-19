@@ -40,13 +40,13 @@ const Navbar = ({ className }: { className?: string }) => {
               title="DevFlow"
               href="https://devflow-nextjs-prod.vercel.app"
               src="https://assets.aceternity.com/demos/algochurn.webp"
-              description="Prepare for tech interviews like never before."
+              description="A community-driven platform for asking and answering programming questions and collaborate with other developers"
             />
             <ProductItem
               title="NERetreats"
               href="https://ne-retreats.vercel.app"
               src="https://assets.aceternity.com/demos/tailwindmasterkit.webp"
-              description="Production ready Tailwind css components for your next project"
+              description="A full stack hotel booking and hosting site"
             />
           </div>
         </MenuItem>

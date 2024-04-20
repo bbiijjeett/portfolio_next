@@ -13,8 +13,8 @@ const HeroSection = () => {
             personal portfolio
           </b>
           , or as I like <br /> to call it, the{" "}
-          <span>
-            <i className="line-through font-black drop-shadow-[0px_0px_4px_#ffffff3f] text-red-500">
+          <span className="animate-pulse">
+            <i className="line-through font-black  drop-shadow-[0px_0px_4px_#ffffff3f] text-red-500">
               work in progress
             </i>
           </span>

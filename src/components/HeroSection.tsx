@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import Link from "next/link";
 
@@ -14,7 +14,7 @@ const HeroSection = () => {
           </b>
           , or as I like <br /> to call it, the{" "}
           <span>
-            <i className="line-through font-black drop-shadow-[0px_0px_4px_#ffffff3f]">
+            <i className="line-through font-black drop-shadow-[0px_0px_4px_#ffffff3f] text-red-500">
               work in progress
             </i>
           </span>
@@ -29,9 +29,10 @@ const HeroSection = () => {
             <span className="mr-2 text-xs opacity-50" aria-hidden="true">
               &lt;p&gt;
             </span>
-            As for me, I m Bijeet Nath, a software engineer, forever a student,
-            and I m passionate about building and breaking things. I m always
-            seeking to understand how and why things work.
+            As for me, I&apos;m <b>Bijeet Nath</b>, a software engineer, forever
+            a student, and I&apos;m passionate about building and breaking
+            things. I&apos;m always seeking to understand how and why things
+            work.
             <span className="ml-2 text-xs opacity-50">&lt;/p&gt;</span>
           </p>
 
@@ -41,9 +42,16 @@ const HeroSection = () => {
             </span>
             Currently, I work as an Project Engineer at Wipro, I ensured the
             smooth operation of crucial business applications for Maxis
-            Communication such as APRU and BSRA by promptly resolving code
-            issues and fulfilling all business requirements along with
-            troubleshooting techcenical issues in L2 role.
+            Communication, including{" "}
+            <b> APRU, BSRA, myKad, Kenan, among others.</b>
+            This involves promptly addressing{" "}
+            <b>
+              {" "}
+              code issues, meeting business requirements, and troubleshooting
+              technical issues{" "}
+            </b>{" "}
+            in an L2 capacity for all SharePoint sites, as well as overseeing
+            their servers.
             <span className="ml-2 text-xs opacity-50" aria-hidden="true">
               &lt;/p&gt;
             </span>
@@ -62,7 +70,7 @@ const HeroSection = () => {
                 title="GitHub"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-2 duration-150 first:pl-0 last:pr-0 hover:scale-125"
+                className="px-2 duration-150 first:pl-0 last:pr-0 hover:scale-125 hover:text-red-500"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +88,7 @@ const HeroSection = () => {
                 title="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-2 duration-150 first:pl-0 last:pr-0 hover:scale-125"
+                className="px-2 duration-150 first:pl-0 last:pr-0 hover:scale-125 hover:text-red-500"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +105,7 @@ const HeroSection = () => {
                 title="Email"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-2 duration-150 first:pl-0 last:pr-0 hover:scale-125"
+                className="px-2 duration-150 first:pl-0 last:pr-0 hover:scale-125 hover:text-red-500"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -113,14 +121,14 @@ const HeroSection = () => {
           </div>
           <div className="h-12 border-l border-primary"></div>
           <div className="group flex flex-col gap-2">
-            <a title="My web practices." href="/laboratory">
-              <div className="relative z-50 flex items-center gap-3 duration-150 group-hover:scale-105">
+            <a title="My webdev practices." href="/laboratory">
+              <div className="relative z-50 flex items-center gap-3 duration-150 group-hover:scale-105 hover:text-red-500">
                 <h2 className="max-w-4xl font-serif text-xl md:text-2xl font-medium">
                   lab·o·ra·to·ry
                 </h2>
                 ~
                 <i className="underline opacity-50" aria-hidden="true">
-                  My web practices
+                  My webdev practices
                 </i>
               </div>
               <div className="pointer-events-none fixed inset-0 z-10 h-dvh w-screen bg-dark-900/10 opacity-0 backdrop-blur-md delay-75 duration-300 ease-out group-hover:opacity-100"></div>

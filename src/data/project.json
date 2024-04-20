@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "hoobee clone",
+      "description": "Recreated hoo.bee website from scratch + Responsive design.",
+      "live": "https://hoo-bee.vercel.app/",
+      "code": "https://github.com/bbiijjeett/awwards/tree/master/hoobee_ind",
+      "image": "/image/hoobee.png"
+    },
+    {
+      "id": 2,
+      "title": "Work-studio clone",
+      "description": "Recreating Work-studio website from scratch + implemented Locomotive.",
+      "live": "https://works-studio1.vercel.app/",
+      "code": "https://github.com/bbiijjeett/awwards/tree/master/locoMotive_ReactProject",
+      "image": "/image/workstudio.png"
+    },
+    {
+      "id": 3,
+      "title": "Ochi clone",
+      "description": "Recreating Ochi website from scratch + implemented Locomotive.",
+      "live": "https://ochi-practice.vercel.app/",
+      "code": "https://github.com/bbiijjeett/awwards/tree/master/ochi",
+      "image": "/image/ochi.png"
+    },
+    {
+      "id": 4,
+      "title": "iphone 15pro",
+      "description": "iphone 15pro websote with gsap and Three.js.",
+      "live": "https://iphone-15pro.vercel.app/",
+      "code": "https://github.com/bbiijjeett/awwards/tree/master/apple_iphone15",
+      "image": "/image/iphone15pro.png"
+    },
+    {
+      "id": 5,
+      "title": "DesiLingo",
+      "description": "DesiLingo is an online crowdsourced dictionary that focuses on slang words, phrases, and cultural expressions of India..",
+      "live": "https://desi-lingo.vercel.app/",
+      "code": "https://github.com/bbiijjeett/DesiLingo",
+      "image": "/image/desilingo.png"
+    }
+  ]
+}

@@ -61,7 +61,7 @@ const Navbar = ({ className }: { className?: string }) => {
             <ProductItem
               title="NERetreats"
               href="https://ne-retreats.vercel.app"
-              src="/image/NERetreats.png"
+              src="/image/neretreats.png"
               description="A full stack hotel booking and hosting site"
             />
           </div>

@@ -78,10 +78,10 @@ const lifeOfADeveloper = [
     text: "Pushing code like a boss and praying the build doesn't break",
   },
   {
-    text: "Getting coffee: the fuel for coding adventures",
+    text: "Discovering that 'it works on my machine' doesn't count as deployment",
   },
   {
-    text: "Making peace with stack overflow as your co-worker",
+    text: "Learning a new buzzword and using it excessively in conversations",
   },
   {
     text: "Attending meetings to discuss why you're not coding",

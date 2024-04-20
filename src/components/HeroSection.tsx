@@ -121,14 +121,14 @@ const HeroSection = () => {
           </div>
           <div className="h-12 border-l border-primary"></div>
           <div className="group flex flex-col gap-2">
-            <a title="My webdev practices." href="/laboratory">
+            <a title="webdev experiment." href="/laboratory">
               <div className="relative z-50 flex items-center gap-3 duration-150 group-hover:scale-105 hover:text-red-500">
                 <h2 className="max-w-4xl font-serif text-xl md:text-2xl font-medium">
                   lab·o·ra·to·ry
                 </h2>
                 ~
                 <i className="underline opacity-50" aria-hidden="true">
-                  My webdev practices
+                  webdev experiment
                 </i>
               </div>
               <div className="pointer-events-none fixed inset-0 z-10 h-dvh w-screen bg-dark-900/10 opacity-0 backdrop-blur-md delay-75 duration-300 ease-out group-hover:opacity-100"></div>

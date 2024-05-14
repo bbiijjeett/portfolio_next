@@ -8,14 +8,13 @@ import {
 } from "@/components/ui/navbar-menu";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
-import { Button } from "@/components/ui/moving-border";
 
 const Navbar = ({ className }: { className?: string }) => {
   const [active, setActive] = useState<string | null>(null);
 
   const downloadResume = () => {
     const resumeUrl =
-      "https://drive.usercontent.google.com/download?id=1cO22xlGIZ7zu4M3HMo-Ka9G6aBCpFK48&export=download"; // Replace this with your Google Drive link
+      "https://drive.usercontent.google.com/download?id=1gkA8mSpXgmwNn4azWQ_JIYcc3vU_f0yf&export=download"; // Replace this with your Google Drive link
     const link = document.createElement("a");
     link.href = resumeUrl;
     link.setAttribute("download", "resume.pdf");
